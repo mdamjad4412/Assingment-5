@@ -1,5 +1,5 @@
 let clickedButtonsCount = 0;
-const seatSerial = document.getElementById("seat-serial-section");
+const seatSerial = document.getElementById("seat-section");
 let selectedSeats = [];
 
 seatSerial.addEventListener("click", function (e) {
@@ -88,6 +88,6 @@ function formSubmit(e) {
       input.value = '';
     });
   } else {
-    alert("Please fill in all required fields.");
+    alert("Please fill up the from.");
   }
 }
