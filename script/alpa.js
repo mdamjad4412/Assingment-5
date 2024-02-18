@@ -34,7 +34,7 @@ seatSerial.addEventListener("click", function (e) {
         couponBtn.removeAttribute("disabled");
       }
     } else {
-      alert("You can only select up to 4 seats.");
+      alert("You can only select to 4 seats.");
     }
   }
 });
@@ -69,7 +69,7 @@ function buyTicket() {
 }
 
 function modalHide() {
-  location.reload()
+  window.location.reload()
 }
 
 
